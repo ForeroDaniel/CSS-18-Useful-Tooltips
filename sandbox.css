@@ -60,3 +60,17 @@
     border-bottom-width: 0;
     transform: translateX(-50%);
 }
+
+.tooltip.right::before {
+    top: 50%;
+    left: calc(100% + 5px);
+    transform: translateY(-50%);
+}
+
+.tooltip.right::after {
+    top: 50%;
+    left: 100%;
+    border-right-color: rgba(0,0,0,0.8);
+    border-left-width: 0;
+    transform: translateY(-50%);
+}
